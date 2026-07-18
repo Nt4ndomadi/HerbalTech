@@ -12,6 +12,10 @@ padding-top:125px; /* match your header's actual height */
 
 }
 
+*{
+    background-color: rgb(2, 78, 2);
+}
+
 header{
 display:grid;
 grid-template-columns: repeat(3, 1fr);
