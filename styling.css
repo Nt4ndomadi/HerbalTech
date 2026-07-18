@@ -20,7 +20,8 @@ align-items:center;
 background-color: antiquewhite;
 Position:fixed;
 Width:100%;
-height: clamp(80px, 10vw, 125px);
+height: clamp(80px, 25vw, 125px);
+
 padding: 10px 0;
 top:0;
 
@@ -39,9 +40,9 @@ top:0;
 
 header img{
 position: fixed;
-Height:40px;
-Width:40px;
-padding-top:1px;}
+Height:Auto;
+width: clamp(18px, 8vw, 35px);
+padding-top:clamp(1px, 2vw, 2px);}
 
 
 header nav{
@@ -108,32 +109,41 @@ min-height:100vh;
 }
 
 .content h2{
-color: rgb(2, 78, 2);
 text-align: center;
+margin:0;
+font-size: clamp(1.5rem, 5vw, 3rem);
+color: rgb(2, 78, 2);
 }
 
 
 .content p{
 color: antiquewhite;
-width:60%;}
+font-size: clamp(1rem, 2.5vw, 1.25rem);
+max-width: clamp(280px, 80%, 700px); /* keeps long paragraphs readable, not stretched edge-to-edge on large screens */
+margin: 0 auto; /* centers that constrained width */
+width:60%;
+margin:0;
+}
 
 button{
-    Background-color: antiquewhite;
-    border-radius: 5px;
-    border:0;
-    width:150px;
-    height:75px;
+Background-color: antiquewhite;
+font-size: clamp(0.9rem, 2vw, 1.1rem);
+padding: clamp(8px, 1.5vw, 14px) clamp(16px, 3vw, 28px);
+border-radius: 5px;
+border:0;
+width:150px;
+height:75px;
 }
 button:hover{
-    Background-color: rgb(2, 78, 2);
-    color: antiquewhite;
-    cursor:pointer;
+Background-color: rgb(2, 78, 2);
+color: antiquewhite;
+cursor:pointer;
 }
 button a{
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(2, 78, 2);
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+color: rgb(2, 78, 2);
 
 }
 
