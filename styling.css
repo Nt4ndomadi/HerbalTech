@@ -130,7 +130,7 @@ Background-color: antiquewhite;
 font-size: clamp(0.9rem, 2vw, 1.1rem);
 border-radius: 5px;
 border:0;
-width:clamp(1rem, 2.5vw, 1.25rem)
+width:clamp(1rem, 2.5vw, 1.25rem);
 height:clamp(16px, 3vw, 28px);
 }
 button:hover{
