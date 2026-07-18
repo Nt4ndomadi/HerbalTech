@@ -128,9 +128,9 @@ Background-color: antiquewhite;
 font-size: clamp(0.9rem, 2vw, 1.1rem);
 border-radius: 5px;
 border:0;
-width:50;
-height:25px;
-padding: 10px;
+width:150px;
+height:75px;
+padding: 25px;
 }
 button:hover{
 Background-color: rgb(2, 78, 2);
