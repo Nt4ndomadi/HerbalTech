@@ -128,11 +128,10 @@ margin:0;
 button{
 Background-color: antiquewhite;
 font-size: clamp(0.9rem, 2vw, 1.1rem);
-padding: clamp(8px, 1.5vw, 14px) clamp(16px, 3vw, 28px);
 border-radius: 5px;
 border:0;
-width:150px;
-height:65px;
+width:clamp(16px, 3vw, 28px);
+height:clamp(16px, 3vw, 28px);
 }
 button:hover{
 Background-color: rgb(2, 78, 2);
